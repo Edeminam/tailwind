@@ -80,10 +80,6 @@ h3{
     box-sizing: border-box;
 }
 
-.alert-content .general{
-    display: flex;
-    flex-direction: row;
-}
 
 .link-text p{
     margin: .5rem;
