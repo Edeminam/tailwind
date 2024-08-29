@@ -62,13 +62,18 @@ h3{
 }
 
 .alert-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border: 2px solid var(--border-color);
     border-radius: .75rem;
+    padding: 2rem;
 }
 
 
 .alert-content{
-    width: 75%;
+    width: 90%;
     height: auto;
     display: flex;
     flex-direction: row;
