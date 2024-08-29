@@ -72,8 +72,12 @@ h3{
     margin: 4rem 0;
 }
 
+
 .alert-content{
-    width: fit-content;
+    width: 75%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
     background-color: var(--description-color);
     padding: 2rem;
     border-radius: .5rem;
