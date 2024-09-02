@@ -20,12 +20,6 @@ main{
     width: 100%;
 }
 
-.card-with-description{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
 .two-column{
     width: 100%;
     display: flex;
@@ -40,6 +34,15 @@ main{
     align-items: center;
 }
 
+.link-text p {
+    margin: .5rem;
+    padding: .5rem .7rem;
+    background-color: var(--border-color);
+    border-radius: .3rem;
+    font-size: .75rem;
+    font-weight: 500;
+}
+
 
 h1{
     font-size: var(--h1-size);
@@ -52,30 +55,5 @@ h3{
     box-sizing: border-box;
 }
 
-.alert-content-text{
-    padding: 0 0 0 .8rem;
-}
 
-.alert-content-text p{
-    margin: 0;
-    box-sizing: border-box;
-}
 
-.alert-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid var(--border-color);
-    border-radius: .75rem;
-    padding: 2rem;
-}
-
-.link-text p{
-    margin: .5rem;
-    padding: .5rem .7rem;
-    background-color: var(--border-color);
-    border-radius: .3rem;
-    font-size: .75rem;
-    font-weight: 500;
-}
