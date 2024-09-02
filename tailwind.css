@@ -164,6 +164,7 @@ h4{
     height: auto;
     background-color: #fef2f2;
     margin: 2rem 1rem;
+    padding-right: 18rem;
     border-radius: .3rem;
     box-sizing: border-box;
 }
@@ -177,5 +178,6 @@ h4{
     box-sizing: border-box;
 }
 
-
-
+.list{
+    margin-left: 0;
+}
