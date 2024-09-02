@@ -26,16 +26,19 @@ main{
     align-items: center;
 }
 
+a{
+    text-decoration: none;
+}
 .links{
     color: #64748b;
     font-size: .875rem;
     font-weight: 600;
-    text-decoration: none;
 }
 
 .links :hover{
     color: #40526b;
     font-size: .875rem;
+    text-decoration: underline;
 }
 
 .link-text{
@@ -51,6 +54,16 @@ main{
     border-radius: .3rem;
     font-size: .75rem;
     font-weight: 500;
+}
+
+.title-texts p{
+    max-width: 56rem;
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    margin: 1rem 0 1rem 0;
+    font-weight: 400;
+    color: #334155;
 }
 
 .header-texts .links .slant::after{
@@ -75,12 +88,17 @@ main{
 h1{
     font-size: var(--h1-size);
     color: var(--text-dark);
+    margin: .65rem 0 0 0;
 }
 
 h4{
     margin: 0;
     display: inline-block;
     box-sizing: border-box;
+}
+
+.cards{
+    margin-top: 2.5rem;
 }
 
 .card-holder{
