@@ -49,10 +49,32 @@ h1{
     color: var(--text-dark);
 }
 
-h3{
-    display: inline-block;
-    margin: .6rem 0;
-    box-sizing: border-box;
+.card-holder{
+    width: 100%;
+    border: 2px solid var(--border-color);
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.attention-needed{
+    background-color: #fefce8;
+    margin: 2rem 1rem;
+}
+
+.content-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-text .text{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
