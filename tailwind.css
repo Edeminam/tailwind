@@ -219,7 +219,10 @@ h4{
     font-weight: 500;
     font-size: .9rem;
     letter-spacing: -.5px;
+}
 
+.link-action a{
+    color: #166534;
 }
 
 .link-action .view{
@@ -243,3 +246,36 @@ h4{
 .link-action .dis:hover {
     background-color: #dffde8;
 }
+
+/* WITH LINK ON RIGHT */
+
+.with-link-right {
+    height: auto;
+    background-color: #eff6ff;
+    color: #1d4ed8;
+    margin: 2rem 1rem;
+    border-radius: .3rem;
+    box-sizing: border-box;
+}
+
+.link-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-txt{
+    padding-right: 20rem;
+    font-size: .875rem;
+}
+
+.fa-circle-info{
+    padding-right: .5rem;
+    color: #60a5fa;
+}
+
+.linkn a{
+    color: #1d4ed8;
+}
+
