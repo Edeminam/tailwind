@@ -129,6 +129,8 @@ h4{
     box-sizing: border-box;
 }
 
+/* WITH DESCRIPTION */
+
 .attention-needed{
     height: auto;
     background-color: #fefce8;
@@ -136,8 +138,6 @@ h4{
     border-radius: .3rem;
     box-sizing: border-box;
 }
-
-/* WITH DESCRIPTION */
 
 .content-text .description{
     max-width: 90%;
@@ -216,6 +216,7 @@ h4{
 }
 
 .link-action{
+    padding-top: 1rem;
     font-weight: 500;
     font-size: .9rem;
     letter-spacing: -.5px;
@@ -258,6 +259,11 @@ h4{
     box-sizing: border-box;
 }
 
+.with-link-right .content-text{
+    padding: 1rem;
+    font-size: .875rem;
+}
+
 .link-right{
     display: flex;
     flex-direction: row;
@@ -266,7 +272,7 @@ h4{
 }
 
 .link-txt{
-    padding-right: 20rem;
+    padding-right: 23rem;
     font-size: .875rem;
 }
 
@@ -277,5 +283,32 @@ h4{
 
 .linkn a{
     color: #1d4ed8;
+    font-size: .875rem;
+    font-weight: 500;
 }
 
+/* ACCENT BORDER */
+
+.with-accent-border {
+    height: auto;
+    background-color: #fefce8;
+    color: #854d0e;
+    margin: 2rem 1rem;
+    padding-right: 18rem;
+    border-left: solid 4px #fae313;
+    box-sizing: border-box;
+}
+
+.with-accent-border .content-text {
+    padding: 1rem;
+    font-size: .875rem;
+}
+
+.accent-border .accent-txt{
+    margin: 0;
+}
+
+.accent-txt span{
+    font-weight: 500;
+    text-decoration: underline;
+}
