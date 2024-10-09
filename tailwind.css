@@ -101,6 +101,7 @@ h1{
 }
 
 h4{
+    font-size: .875rem;
     margin: 0;
     display: inline-block;
     box-sizing: border-box;
@@ -112,7 +113,7 @@ h4{
 
 .card-holder{
     width: 100%;
-    border: 2px solid var(--border-color);
+    border: 1px solid var(--border-color);
     border-radius: .5rem;
     display: flex;
     flex-direction: column;
@@ -137,6 +138,10 @@ h4{
     margin: 2rem 1rem;
     border-radius: .3rem;
     box-sizing: border-box;
+}
+
+.attention-needed .content-text{
+    padding: 1rem;
 }
 
 .content-text .description{
@@ -176,8 +181,19 @@ h4{
     box-sizing: border-box;
 }
 
+.with-list .content-text{
+    padding: 1rem;
+}
+
+.list{
+    font-size: .875rem;
+}
+
+.list ul{
+    margin-bottom: 0;
+}
+
 .fa-circle-xmark {
-    padding-top: .3rem;
     color: #f87171;
 }
 
@@ -202,27 +218,55 @@ h4{
     box-sizing: border-box;
 }
 
+.with-action .content-text{
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
 .fa-circle-check{
+    padding-top: .4rem;
     color: #4ade80;
+}
+
+/* .action{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    font-size: .875rem;
+} */
+
+.action p{
+    margin: 0;
 }
 
 .content-text .action {
     max-width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    align-content: center;
     margin-left: .6rem;
     box-sizing: border-box;
 }
 
+.action-flex{
+    display: block;
+    flex-direction: column;
+    font-size: .875rem;
+    line-height: 30px;
+    padding-left: .875rem;
+    box-sizing: border-box;
+}
+
 .link-action{
-    padding-top: 1rem;
     font-weight: 500;
     font-size: .9rem;
+    margin-left: -.6rem;
     letter-spacing: -.5px;
 }
 
 .link-action a{
+    font-size: .875rem;
     color: #166534;
 }
 
@@ -311,4 +355,36 @@ h4{
 .accent-txt span{
     font-weight: 500;
     text-decoration: underline;
+}
+
+/* DISMISS */
+
+.with-dismiss {
+    height: auto;
+    background-color: #f0fdf4;
+    color: #166534;
+    margin: 2rem 1rem;
+    /* padding-right: 18rem; */
+    box-sizing: border-box;
+}
+
+.with-dismiss .content-text{
+    padding: 1rem;
+}
+
+.dismiss{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.dismiss .dismiss-txt{
+    font-size: .875rem;
+    margin-right: 36rem;
+}
+
+.dismiss .fa-check-circle, .fa-close{
+    padding-right: .5rem;
+    color: #4ade80;
 }
