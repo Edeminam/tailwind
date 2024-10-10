@@ -8,12 +8,12 @@
 
 body{
     font-family: var(--body-font);
-    margin: 6rem;
+    margin: 0 6rem;
 }
 
-/* main{
-    margin: 6rem;
-} */
+main{
+    padding: 0 0 6rem 0;
+}
 
 .section-container{
     width: 100%;
