@@ -132,6 +132,7 @@ h4{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-top: 0;
 }
 
 .top .leftie{
@@ -146,15 +147,30 @@ h4{
     box-sizing: border-box;
 }
 
-.btn-logo a{
-    margin-top: 0;
+.leftie .btn-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--border-color);
+    padding: 1rem 1.5rem;
+    margin-left: 1rem;
+    border-radius: 25px;
+}
+
+.leftie .btn-logo a{
+    margin: 0;
 }
 
 .rightie .right-text{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+}
+
+.rightie .right-text a{
+    margin-top: 0;
 }
 
 .button{
