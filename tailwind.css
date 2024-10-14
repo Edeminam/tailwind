@@ -9,6 +9,8 @@
 body{
     font-family: var(--body-font);
     margin: 0 6rem;
+    background-image: url('/images/beams-basic.png');
+    background-repeat: no-repeat;
 }
 
 main{
@@ -167,12 +169,17 @@ h4{
     margin: 0 .5rem 0 .5rem;
 }
 
-.btn-logo img{
+.icon-svg-tailwind:before {
+    content: "\e900";
+    color: blueviolet;
+}
+
+/* .btn-logo img{
     width: 15px;
     height: 15px;
     margin-right: .5rem;
     color: red;
-}
+} */
 
 .leftie .btn-logo a{
     margin: 0;
