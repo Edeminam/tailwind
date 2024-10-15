@@ -38,9 +38,23 @@ main{
     margin-top: 6rem;
 }
 
+.vertical {
+    border: none;
+    height: 1px;
+    width: 20px;
+    background: rgb(143, 143, 143);
+    transform: rotate(90deg);
+    /* height: 16px;
+    border: solid 1px #a7a7a7;
+    line-height: 24px;
+    box-sizing: border-box;
+    margin: 0 .5rem 0 .5rem; */
+}
+
 a{
     text-decoration: none;
 }
+
 .links{
     display: flex;
     flex-direction: row;
@@ -112,6 +126,12 @@ a{
     transition: .5s ease;
 }
 
+hr.navv{
+    border: none;
+    height: 1px;
+    background: rgb(226, 226, 226);
+}
+
 h1{
     font-size: var(--h1-size);
     color: var(--text-dark);
@@ -135,7 +155,7 @@ h4{
     justify-content: space-between;
     align-items: center;
     margin-top: 0;
-    padding: 2rem 0 2rem 0;
+    padding: 1rem 0 1rem 0;
 }
 
 .top .leftie{
@@ -172,6 +192,7 @@ h4{
 .icon-svg-tailwind:before {
     content: "\e900";
     color: blueviolet;
+    margin-right: .5rem;
 }
 
 /* .btn-logo img{
@@ -182,6 +203,8 @@ h4{
 } */
 
 .leftie .btn-logo a{
+    font-size: .8rem;
+    font-weight: 700;
     margin: 0;
 }
 
@@ -193,6 +216,8 @@ h4{
 }
 
 .rightie .right-text a{
+    font-size: .8rem;
+    font-weight: 700;
     margin-top: 0;
     margin-left: 1rem;
 }
@@ -206,6 +231,8 @@ h4{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    font-size: .8rem;
+    font-weight: 700;
 }
 
 .button .arrow{
@@ -542,6 +569,7 @@ h4{
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
     box-sizing: border-box;
+    padding-bottom: 4rem;
 }
 
 .link-1, .link-2, .link-3, .link-4, a{
@@ -558,6 +586,19 @@ h4{
 .link-4,
 a:hover{
     color: #64748b;
+}
+
+.coni{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.link-1,
+.link-2,
+.link-3,
+.link-4,.coni .fa-arrow-right{
+    padding-left: .5rem;
 }
 
 .down{
@@ -580,8 +621,8 @@ a:hover{
 }
 
 .down-links .vertical{
-    height: 16px;
-    border: solid 1px #000;
+    height: 1px;
+    border: solid 1px #e6e6e6;
     line-height: 24px;
     box-sizing: border-box;
     margin: 0 .5rem 0 .5rem;
